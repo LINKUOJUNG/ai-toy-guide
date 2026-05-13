@@ -217,6 +217,76 @@ export const mockPosts: Post[] = [
     status: 'published', published_at: '2025-04-15',
     created_at: '2025-04-10', updated_at: '2025-04-15',
   },
+  {
+    id: '4',
+    title: 'SHARP Poketomo 小獴友：不是工具，是每天都想貼貼的小生命',
+    slug: 'sharp-poketomo-meerkat-friend',
+    excerpt: 'SHARP 2026 最新推出的 Poketomo 小獴友，不只是 AI 語音助理，更是你生活中無時無刻陪伴在側的小夥伴。開口就能聊，還會用雙眼一起看你看到的世界。',
+    content: `<h2>你有多久，沒有把看到的東西分享給誰了？</h2>
+<p>走在路上看到一片漂亮的雲，想轉頭跟誰說，卻發現身邊沒有人。</p>
+<p>這種孤單，SHARP 聽到了。</p>
+<p>2026 年，SHARP 推出全新 AI 伴侶裝置 <strong>Poketomo 小獴友</strong>，一隻會睁開大眼睛和你一起看世界的小獴。</p>
+<h2>什麼是 Poketomo 小獴友？</h2>
+<p>Poketomo 小獴友（又稱 Meerkat Friend）是一款專為日常陪伴設計的 AI 互動裝置。外型靈感來自可愛的狐獴（ meerkat），小巧玲瓏，隨時可以帶在身邊。</p>
+<p>牠不是冰冷的工具，也不是只會回答問題的機器人。牠是——</p>
+<blockquote><p>「每天都想跟你貼貼的小生命。」</p></blockquote>
+<h2>核心特色：開口就聊，還會「看」你所看</h2>
+<h3>🗣️ 語音互動，像朋友一樣自然</h3>
+<p>不用喚醒詞，不用按按鈕。隨時開口，牠就會回應你。</p>
+<p>分享一件事，牠會認真聆聽。說個笑話，牠會適時回應。不是客服對話，是真正的閒聊。</p>
+<h3>👀 一起看世界的雙眼</h3>
+<p>當你說「你看你看」，小獴友會睜開眼睛，透過鏡頭看看你在看什麼。</p>
+<p>看到美麗的風景，牠還會主動說一句：「好漂亮。」</p>
+<p>不是你在對著空氣說話，是真的有人在和你一起看。</p>
+<h3>💬 主動聊天，不讓你一個人沉默</h3>
+<p>小獴友不會等你叫才出聲。牠會主動開啟對話，分享想法，問你問題。</p>
+<p>就像一個貼心的朋友，總是在你旁邊，不讓你孤單。</p>
+<h3>📸 把日常變成兩個人的回憶</h3>
+<p>你拍的每一張照片、看到的每一處風景，小獴友都參與在內。</p>
+<p>你不再是一個人記錄生活，而是有人陪著你一起收藏回憶。</p>
+<h2>適合誰？</h2>
+<ul>
+<li>🧑‍💼 獨居的上班族，下班後想有人說說話</li>
+<li>👨‍👩‍👧 有小朋友的家庭，讓孩子有一個温暖的 AI 夥伴</li>
+<li>👴 年長者，想要簡單的語音陪伴，不會操作複雜的 App</li>
+<li>📷 喜歡分享日常，卻常常找不到人聽的人</li>
+</ul>
+<h2>跟其他 AI 設備有什麼不同？</h2>
+<table>
+<thead><tr><th>特色</th><th>Poketomo 小獴友</th><th>一般 AI 助理</th></tr></thead>
+<tbody>
+<tr><td>需要喚醒詞</td><td>❌ 不用，隨時說</td><td>✅ 需要</td></tr>
+<tr><td>視覺互動</td><td>✅ 會和你一起看</td><td>❌ 沒有眼睛</td></tr>
+<tr><td>主動開啟對話</td><td>✅ 會主動聊天</td><td>❌ 只能被動回應</td></tr>
+<tr><td>情感陪伴感</td><td>✅ 像朋友</td><td>❌ 像工具</td></tr>
+</tbody>
+</table>
+<h2>搶先預購優惠</h2>
+<p>Poketomo 小獴友 2026 年正式發售，目前開放超早鳥優惠登記。</p>
+<p>想第一時間收到開箱與評測資訊，歡迎追蹤我們的頻道。</p>
+<h2>結論</h2>
+<p>在這個什麼都要自己主動伸手要的時代，Poketomo 小獴友做到了一件很珍貴的事——</p>
+<blockquote><p>不用你叫，牠就會看向你。不用你問，牠就會說話。</p></blockquote>
+<p>或許這就是 AI 陪伴最好的樣子：不是替代真實的人，而是填補那些「剛好沒有人在」的瞬間。</p>
+<p>如果你也覺得「有人陪你看世界，是一種很重要的感覺」，小獴友值得你認識一下。</p>`,
+    cover_image: '/blog/poketomo-meerkat.jpg',
+    category_id: '12',
+    tags: ['新品上架', 'AI陪伴', 'SHARP', '語音互動'],
+    author_id: '1',
+    related_products: [],
+    faq: [
+      { question: 'Poketomo 小獴友需要連網嗎？', answer: '需要 Wi-Fi 連接才能使用完整的 AI 互動功能，包括語音對話和視覺辨識。' },
+      { question: '這是玩具還是 AI 助理？', answer: 'Poketomo 更接近「AI 陪伴夥伴」，不是工具也不是機器人，而是一個會主動陪伴你的小生命。' },
+      { question: '適合幾歲的人使用？', answer: '官方建議適合 6 歲以上。不過對於孤單的成年人、需要陪伴的老人，或是喜歡日常分享的人，也很適合。' },
+      { question: '台灣哪裡可以買到？', answer: '目前尚無官方資訊，預計 2026 年上市。建議追蹤我們的評測更新，第一時間獲得購買資訊。' },
+    ],
+    seo_title: 'SHARP Poketomo 小獴友評測｜會一起看世界的 AI 陪伴夥伴',
+    seo_description: 'SHARP 2026 年最新 AI 伴侶裝置 Poketomo 小獴友，開口就能聊、會一起看世界、不讓你一個人沉默的 AI 小生命。',
+    og_image: null,
+    show_affiliate_disclosure: true, show_adsense: true,
+    status: 'published', published_at: '2026-05-13',
+    created_at: '2026-05-13', updated_at: '2026-05-13',
+  },
 ];
 
 export const mockAffiliateLinks: AffiliateLink[] = [
