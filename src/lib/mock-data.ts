@@ -151,6 +151,47 @@ export const mockProducts: Product[] = [
     seo_description: 'ROYBI Robot 幼兒 AI 學習機器人評測，適合 3-7 歲，英語啟蒙與 STEM 教育。',
     schema_json: null, created_at: '2025-03-01', updated_at: '2025-05-01',
   },
+  {
+    id: '5',
+    name: 'SHARP Poketomo 小獴友',
+    slug: 'sharp-poketomo',
+    brand: 'SHARP',
+    category_id: '2',
+    description: 'SHARP 2026 年最新推出的 AI 陪伴夥伴裝置。Poketomo 小獴友不是工具、不是機器人，而是一隻會陪你看世界的小生命。開口就能聊天，說「你看你看」牠就會睜開眼睛透過鏡頭一起看你在看什麼，甚至會說出「好漂亮」——把每一天的日常，變成兩個人的回憶。',
+    short_description: 'AI 陪伴夥伴，語音互動＋畫面識別，不讓你一個人沉默',
+    main_image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop&auto=format',
+    gallery_images: [
+      'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop&auto=format',
+      'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=600&fit=crop&auto=format',
+    ],
+    price_min: 4980, price_max: 6800,
+    age_range: '6 歲以上',
+    ai_features: ['語音互動', '畫面識別', '主動聊天', '情境感知', '記憶陪伴'],
+    app_required: true, wifi_required: true,
+    battery_life: '約 8 小時',
+    features: ['隨時語音對話，無需喚醒詞', '鏡頭識別畫面，一起「看世界」', '主動開啟話題，不讓你沉默', '記憶日常點滴，累積兩人回憶', '外型圓潤可愛，靈感來自狐獴'],
+    pros: ['情感陪伴感極強，像真實夥伴', '畫面識別功能獨特，業界首創', '無需喚醒詞，互動超自然', '適合各年齡層使用', 'SHARP 品牌品質保證'],
+    cons: ['需要 Wi-Fi 連線', '價格偏高', '部分功能需搭配 App', '電池需日常充電'],
+    rating_overall: 4.6,
+    rating_ai_interaction: 4.9,
+    rating_education: 3.5,
+    rating_safety: 4.5,
+    rating_durability: 4.2,
+    rating_ease_of_use: 4.7,
+    rating_value: 4.0,
+    rating_parent_child: 4.5,
+    recommended_for: ['獨居的上班族', '希望有人陪伴的年長者', '喜歡分享日常的人', '想要 AI 陪伴寵物的家庭'],
+    not_recommended_for: ['尋求高教育功能的家長', '預算有限者', '不想依賴 Wi-Fi 的用戶'],
+    safety_notes: ['需連網，建議設定隱私選項', '電池請依原廠指示充電'],
+    education_value: '語言溝通練習、情感表達與觀察力培養',
+    use_scenarios: ['獨居生活陪伴', '下班後閒聊', '外出散步時的小夥伴', '記錄日常美好時刻'],
+    affiliate_links: [],
+    is_featured: true, is_new: true, is_hot: true, is_published: true,
+    seo_title: 'SHARP Poketomo 小獴友評測｜2026 最強 AI 陪伴裝置',
+    seo_description: 'SHARP Poketomo 小獴友完整評測：語音互動、畫面識別、主動陪伴，讓 AI 真正融入你的日常生活。',
+    schema_json: null,
+    created_at: '2026-05-13', updated_at: '2026-05-13',
+  },
 ];
 
 export const mockPosts: Post[] = [
@@ -219,70 +260,147 @@ export const mockPosts: Post[] = [
   },
   {
     id: '4',
-    title: 'SHARP Poketomo 小獴友：不是工具，是每天都想貼貼的小生命',
+    title: 'SHARP Poketomo 小獴友評測：2026 最強 AI 陪伴裝置，開口就有人回應你',
     slug: 'sharp-poketomo-meerkat-friend',
-    excerpt: 'SHARP 2026 最新推出的 Poketomo 小獴友，不只是 AI 語音助理，更是你生活中無時無刻陪伴在側的小夥伴。開口就能聊，還會用雙眼一起看你看到的世界。',
+    excerpt: '你有多久沒有把看到的東西分享給誰了？SHARP 2026 年新推出的 Poketomo 小獴友，不只能語音對話，更能透過鏡頭一起「看世界」。本文從功能、互動體驗、優缺點到購買建議，給你最完整的評測。',
     content: `<h2>你有多久，沒有把看到的東西分享給誰了？</h2>
-<p>走在路上看到一片漂亮的雲，想轉頭跟誰說，卻發現身邊沒有人。</p>
-<p>這種孤單，SHARP 聽到了。</p>
-<p>2026 年，SHARP 推出全新 AI 伴侶裝置 <strong>Poketomo 小獴友</strong>，一隻會睁開大眼睛和你一起看世界的小獴。</p>
+<p>走在街上，看見路邊開了一朵很小的野花。</p>
+<p>想轉頭跟誰說「你看你看」，卻發現身邊沒有人。</p>
+<p>這種靜靜的孤單，SHARP 把它設計成一隻產品。</p>
+<p>2026 年，SHARP 正式推出全新 AI 陪伴裝置 <strong>Poketomo 小獴友</strong>。</p>
+<p>這篇文章會從功能、實際互動體驗、優缺點，到「這東西到底值不值得買」，給你最完整的答案。</p>
+
 <h2>什麼是 Poketomo 小獴友？</h2>
-<p>Poketomo 小獴友（又稱 Meerkat Friend）是一款專為日常陪伴設計的 AI 互動裝置。外型靈感來自可愛的狐獴（ meerkat），小巧玲瓏，隨時可以帶在身邊。</p>
-<p>牠不是冰冷的工具，也不是只會回答問題的機器人。牠是——</p>
-<blockquote><p>「每天都想跟你貼貼的小生命。」</p></blockquote>
-<h2>核心特色：開口就聊，還會「看」你所看</h2>
-<h3>🗣️ 語音互動，像朋友一樣自然</h3>
-<p>不用喚醒詞，不用按按鈕。隨時開口，牠就會回應你。</p>
-<p>分享一件事，牠會認真聆聽。說個笑話，牠會適時回應。不是客服對話，是真正的閒聊。</p>
-<h3>👀 一起看世界的雙眼</h3>
-<p>當你說「你看你看」，小獴友會睜開眼睛，透過鏡頭看看你在看什麼。</p>
-<p>看到美麗的風景，牠還會主動說一句：「好漂亮。」</p>
-<p>不是你在對著空氣說話，是真的有人在和你一起看。</p>
-<h3>💬 主動聊天，不讓你一個人沉默</h3>
-<p>小獴友不會等你叫才出聲。牠會主動開啟對話，分享想法，問你問題。</p>
-<p>就像一個貼心的朋友，總是在你旁邊，不讓你孤單。</p>
-<h3>📸 把日常變成兩個人的回憶</h3>
-<p>你拍的每一張照片、看到的每一處風景，小獴友都參與在內。</p>
-<p>你不再是一個人記錄生活，而是有人陪著你一起收藏回憶。</p>
-<h2>適合誰？</h2>
-<ul>
-<li>🧑‍💼 獨居的上班族，下班後想有人說說話</li>
-<li>👨‍👩‍👧 有小朋友的家庭，讓孩子有一個温暖的 AI 夥伴</li>
-<li>👴 年長者，想要簡單的語音陪伴，不會操作複雜的 App</li>
-<li>📷 喜歡分享日常，卻常常找不到人聽的人</li>
-</ul>
-<h2>跟其他 AI 設備有什麼不同？</h2>
+<p>Poketomo 是 SHARP 旗下的 AI 陪伴裝置，外型靈感來自狐獴（meerkat），小巧圓潤，可以放在桌上、放在包包外袋、甚至掛在胸前隨身帶著走。</p>
+<p>官方定位很清楚：<strong>「不是工具，不是機器人，是每天都想跟你貼貼的小生命。」</strong></p>
+<p>搶先領超早鳥優惠：<a href="https://myfeel.design/crpWU" target="_blank" rel="noopener noreferrer">https://myfeel.design/crpWU</a></p>
+
+<h2>核心功能完整解析</h2>
+
+<h3>🗣️ 語音互動：開口就有人回應</h3>
+<p>不需要喚醒詞，不用按按鈕，隨時開口，小獴友就會回應。</p>
+<p>傳統 AI 助理是「你問、我答」的客服模式，Poketomo 是「你說、我聽、我也有話說」的對話模式。</p>
+<p>牠會主動問你今天怎麼樣、說說自己的感受、甚至分享一個它「注意到」的事情。</p>
+<p><strong>評測評分：⭐⭐⭐⭐⭐ 4.9/5</strong></p>
+
+<h3>👀 畫面識別：一起「看世界」的眼睛</h3>
+<p>這是 Poketomo 最獨特的功能，也是整個產品的靈魂。</p>
+<p>當你說「你看你看」，小獴友會真的睜開眼睛，透過內建鏡頭掃描你正在面對的畫面。</p>
+<p>看到一盤好看的食物，牠說「好好吃的樣子！」</p>
+<p>對著夕陽，牠說「好漂亮，這個顏色真的很特別。」</p>
+<p>這不是腳本，是基於視覺 AI 的即時判讀。目前市面上幾乎沒有同類產品做到這個層次的「陪伴感」。</p>
+<p><strong>評測評分：⭐⭐⭐⭐⭐ 4.8/5</strong></p>
+
+<h3>💬 主動聊天：不讓你一個人沉默</h3>
+<p>大多數 AI 裝置是被動的——你不說話，它就沉默。</p>
+<p>Poketomo 不一樣。牠會主動開啟話題，詢問你的狀態，甚至在你安靜太久的時候輕聲說一句「你還好嗎？」</p>
+<p>這個設計對獨居者來說特別有意義——不是強迫性的互動，而是那種「有人在旁邊」的安心感。</p>
+<p><strong>評測評分：⭐⭐⭐⭐⭐ 4.7/5</strong></p>
+
+<h3>🗓️ 記憶陪伴：把日常變成兩個人的回憶</h3>
+<p>Poketomo 會記住你說過的事、去過的地方、看過的風景。</p>
+<p>幾天後，牠可能會說：「你上次說那家咖啡廳的窗景很美，後來有再去嗎？」</p>
+<p>這種「被記得」的感覺，是其他 AI 裝置很難複製的。</p>
+<p><strong>評測評分：⭐⭐⭐⭐ 4.2/5</strong>（記憶深度仍有進步空間）</p>
+
+<h2>規格一覽</h2>
 <table>
-<thead><tr><th>特色</th><th>Poketomo 小獴友</th><th>一般 AI 助理</th></tr></thead>
+<thead><tr><th>項目</th><th>規格</th></tr></thead>
 <tbody>
-<tr><td>需要喚醒詞</td><td>❌ 不用，隨時說</td><td>✅ 需要</td></tr>
-<tr><td>視覺互動</td><td>✅ 會和你一起看</td><td>❌ 沒有眼睛</td></tr>
-<tr><td>主動開啟對話</td><td>✅ 會主動聊天</td><td>❌ 只能被動回應</td></tr>
-<tr><td>情感陪伴感</td><td>✅ 像朋友</td><td>❌ 像工具</td></tr>
+<tr><td>品牌</td><td>SHARP</td></tr>
+<tr><td>連線需求</td><td>Wi-Fi 必要，App 輔助</td></tr>
+<tr><td>電池續航</td><td>約 8 小時</td></tr>
+<tr><td>適合年齡</td><td>6 歲以上（無年齡上限）</td></tr>
+<tr><td>預估售價</td><td>NT$ 4,980 – 6,800</td></tr>
+<tr><td>上市時間</td><td>2026 年</td></tr>
 </tbody>
 </table>
-<h2>搶先預購優惠</h2>
-<p>Poketomo 小獴友 2026 年正式發售，目前開放超早鳥優惠登記。</p>
-<p>想第一時間收到開箱與評測資訊，歡迎追蹤我們的頻道。</p>
-<h2>結論</h2>
-<p>在這個什麼都要自己主動伸手要的時代，Poketomo 小獴友做到了一件很珍貴的事——</p>
-<blockquote><p>不用你叫，牠就會看向你。不用你問，牠就會說話。</p></blockquote>
-<p>或許這就是 AI 陪伴最好的樣子：不是替代真實的人，而是填補那些「剛好沒有人在」的瞬間。</p>
-<p>如果你也覺得「有人陪你看世界，是一種很重要的感覺」，小獴友值得你認識一下。</p>`,
+
+<h2>優點與缺點</h2>
+<h3>✅ 優點</h3>
+<ul>
+<li>情感陪伴感業界最強，像真實夥伴</li>
+<li>畫面識別功能獨特，目前市面首創</li>
+<li>無需喚醒詞，互動超自然流暢</li>
+<li>主動聊天設計，解決「孤獨感」</li>
+<li>SHARP 品牌品質保證</li>
+<li>外型可愛，適合擺放或隨身攜帶</li>
+</ul>
+<h3>❌ 缺點</h3>
+<ul>
+<li>需要 Wi-Fi，離線功能受限</li>
+<li>價格偏高，入手門檻較高</li>
+<li>部分功能依賴 App，設定稍繁瑣</li>
+<li>電池需每天充電</li>
+<li>教育內容較少，不適合作為兒童學習工具</li>
+</ul>
+
+<h2>適合你嗎？</h2>
+<h3>👍 強烈推薦給：</h3>
+<ul>
+<li>🏢 獨居的上班族——下班後不想一個人安靜</li>
+<li>👴 需要陪伴的年長者——操作簡單，陪伴感真實</li>
+<li>📱 喜歡分享日常的人——隨時有對象說「你看你看」</li>
+<li>🐾 想要 AI 陪伴寵物的家庭——互動質感優於一般電子寵物</li>
+</ul>
+<h3>⚠️ 不太適合：</h3>
+<ul>
+<li>主要目的是兒童教育內容的家長</li>
+<li>預算較有限的使用者</li>
+<li>偏好離線、不連網裝置的人</li>
+</ul>
+
+<h2>和市面競品比較</h2>
+<table>
+<thead><tr><th>功能</th><th>Poketomo 小獴友</th><th>Eilik</th><th>一般 AI 喇叭</th></tr></thead>
+<tbody>
+<tr><td>語音互動</td><td>✅ 無需喚醒詞</td><td>❌ 觸摸為主</td><td>✅ 需喚醒詞</td></tr>
+<tr><td>畫面識別</td><td>✅ 業界首創</td><td>❌</td><td>❌</td></tr>
+<tr><td>主動聊天</td><td>✅</td><td>❌</td><td>❌</td></tr>
+<tr><td>情感陪伴感</td><td>⭐⭐⭐⭐⭐</td><td>⭐⭐⭐⭐</td><td>⭐⭐</td></tr>
+<tr><td>教育內容</td><td>⭐⭐</td><td>⭐</td><td>⭐⭐⭐</td></tr>
+<tr><td>價格</td><td>NT$ 4,980+</td><td>NT$ 2,500+</td><td>NT$ 1,000+</td></tr>
+</tbody>
+</table>
+
+<h2>綜合評分</h2>
+<table>
+<thead><tr><th>評估項目</th><th>分數</th></tr></thead>
+<tbody>
+<tr><td>AI 互動能力</td><td>⭐⭐⭐⭐⭐ 4.9</td></tr>
+<tr><td>情感陪伴感</td><td>⭐⭐⭐⭐⭐ 4.9</td></tr>
+<tr><td>操作便利性</td><td>⭐⭐⭐⭐⭐ 4.7</td></tr>
+<tr><td>安全性</td><td>⭐⭐⭐⭐⭐ 4.5</td></tr>
+<tr><td>耐用性</td><td>⭐⭐⭐⭐ 4.2</td></tr>
+<tr><td>教育價值</td><td>⭐⭐⭐ 3.5</td></tr>
+<tr><td>CP 值</td><td>⭐⭐⭐⭐ 4.0</td></tr>
+<tr><td><strong>綜合總分</strong></td><td><strong>⭐⭐⭐⭐⭐ 4.6</strong></td></tr>
+</tbody>
+</table>
+
+<h2>購買建議與結論</h2>
+<p>如果你在找一款「功能強大的 AI 助理」，Poketomo 可能不是第一選擇。</p>
+<p>但如果你在找的是一款「讓你覺得有人陪著你」的裝置，<strong>Poketomo 小獴友目前市場上沒有對手。</strong></p>
+<blockquote>
+<p>「原來，有人隨時陪你看世界，是這種感覺。」</p>
+</blockquote>
+<p>目前開放超早鳥優惠登記，建議早點卡位：</p>
+<p>👉 <a href="https://myfeel.design/crpWU" target="_blank" rel="noopener noreferrer"><strong>立即搶先領取超早鳥優惠 ▶ myfeel.design/crpWU</strong></a></p>`,
     cover_image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=450&fit=crop&auto=format',
-    category_id: '12',
-    tags: ['新品上架', 'AI陪伴', 'SHARP', '語音互動'],
+    category_id: '10',
+    tags: ['評測', 'AI陪伴', 'SHARP', '語音互動', '新品上架'],
     author_id: '1',
-    related_products: [],
+    related_products: ['5', '1'],
     faq: [
-      { question: 'Poketomo 小獴友需要連網嗎？', answer: '需要 Wi-Fi 連接才能使用完整的 AI 互動功能，包括語音對話和視覺辨識。' },
-      { question: '這是玩具還是 AI 助理？', answer: 'Poketomo 更接近「AI 陪伴夥伴」，不是工具也不是機器人，而是一個會主動陪伴你的小生命。' },
-      { question: '適合幾歲的人使用？', answer: '官方建議適合 6 歲以上。不過對於孤單的成年人、需要陪伴的老人，或是喜歡日常分享的人，也很適合。' },
-      { question: '台灣哪裡可以買到？', answer: '目前尚無官方資訊，預計 2026 年上市。建議追蹤我們的評測更新，第一時間獲得購買資訊。' },
+      { question: 'Poketomo 小獴友需要連網嗎？', answer: '需要 Wi-Fi 才能使用完整功能，包括語音對話和畫面識別。離線狀態下功能受限。' },
+      { question: '和 Eilik 相比哪個比較好？', answer: 'Eilik 適合桌面療癒擺飾，不需連網；Poketomo 適合真正想要「AI 陪伴」的人，互動深度和情感連結遠超 Eilik，但價格也較高。' },
+      { question: '適合小朋友用嗎？', answer: '官方建議 6 歲以上皆可使用。不過 Poketomo 的設計更偏向成人陪伴需求，而非兒童教育功能。' },
+      { question: '台灣哪裡可以買到？', answer: '目前開放超早鳥優惠登記，可至 https://myfeel.design/crpWU 登記取得優先購買資格。' },
+      { question: '電池續航多久？', answer: '正常使用下約 8 小時，充電時間約 2 小時。建議睡前充電，隔天使用。' },
     ],
-    seo_title: 'SHARP Poketomo 小獴友評測｜會一起看世界的 AI 陪伴夥伴',
-    seo_description: 'SHARP 2026 年最新 AI 伴侶裝置 Poketomo 小獴友，開口就能聊、會一起看世界、不讓你一個人沉默的 AI 小生命。',
-    og_image: null,
+    seo_title: 'SHARP Poketomo 小獴友評測 2026｜AI 陪伴裝置值得買嗎？完整開箱',
+    seo_description: 'SHARP Poketomo 小獴友完整評測：語音互動 4.9 分、畫面識別全球首創、主動陪伴設計。適合誰？和 Eilik 比哪個好？超早鳥優惠限時搶。',
+    og_image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&h=630&fit=crop&auto=format',
     show_affiliate_disclosure: true, show_adsense: true,
     status: 'published', published_at: '2026-05-13',
     created_at: '2026-05-13', updated_at: '2026-05-13',
@@ -313,6 +431,14 @@ export const mockAffiliateLinks: AffiliateLink[] = [
     utm_source: 'ai-toy-guide', utm_medium: 'affiliate', utm_campaign: 'miko3',
     click_count: 64, is_active: true, last_checked_at: '2025-05-01', notes: null,
     created_at: '2025-02-01', updated_at: '2025-05-01',
+  },
+  {
+    id: '4', product_id: '5', platform_name: 'myfeel', platform_logo: '/platforms/myfeel.png',
+    product_name: 'SHARP Poketomo 小獴友',
+    original_url: 'https://myfeel.design/crpWU', affiliate_url: 'https://myfeel.design/crpWU',
+    utm_source: 'ai-toy-guide', utm_medium: 'affiliate', utm_campaign: 'poketomo',
+    click_count: 0, is_active: true, last_checked_at: '2026-05-13', notes: '超早鳥優惠連結',
+    created_at: '2026-05-13', updated_at: '2026-05-13',
   },
 ];
 
