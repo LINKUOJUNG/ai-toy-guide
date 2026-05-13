@@ -8,7 +8,15 @@ export function ProductCard({ product }: { product: Product }) {
     <div className="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-shadow group">
       <Link href={`/products/${product.slug}`}>
         <div className="aspect-[4/3] bg-slate-100 relative overflow-hidden">
-          <div className="absolute inset-0 flex items-center justify-center text-6xl">🤖</div>
+          {product.main_image ? (
+            <img
+              src={product.main_image}
+              alt={product.name}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center text-6xl">🤖</div>
+          )}
           {product.is_new && (
             <span className="absolute top-3 left-3 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded">新品</span>
           )}
