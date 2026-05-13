@@ -7,7 +7,15 @@ export function ArticleCard({ post }: { post: Post }) {
     <article className="bg-white rounded-xl border border-slate-200 overflow-hidden hover:shadow-lg transition-shadow group">
       <Link href={`/blog/${post.slug}`}>
         <div className="aspect-[16/9] bg-slate-100 relative overflow-hidden">
-          <div className="absolute inset-0 flex items-center justify-center text-4xl">📝</div>
+          {post.cover_image ? (
+            <img
+              src={post.cover_image}
+              alt={post.title}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+          ) : (
+            <div className="absolute inset-0 flex items-center justify-center text-4xl">📝</div>
+          )}
         </div>
       </Link>
       <div className="p-4">
